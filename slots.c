@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-void slotMacheine(int *coins)
+void SlotmMchine(int *coins)
 {
 
 
@@ -84,7 +84,7 @@ int main()
             continue; // Skip to next iteration if no coins
         }
         coins--; // Deduct one coin for playing
-        slotMacheine(&coins);
+        SlotmMchine(&coins);
     }
     // displays final winnings
     printf("Game over! You finished with %d coins.\n", coins);
