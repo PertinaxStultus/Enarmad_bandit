@@ -61,7 +61,7 @@ void SlotmMchine(int *coins)
     }
 
     // Print the slot values
-    printf("*_*_*_*_*_ENARMMADE BANDITEN*_*_*_*_\n");
+    printf("*_*_*_*_*_ENARMADE BANDITEN*_*_*_*_\n");
     printf("|_|_|_|_|_| [%c] [%c] [%c] |_|_|_|_|_|\n", slot1, slot2, slot3);
     printf("*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_\n");
 }
