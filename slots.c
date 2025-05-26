@@ -6,8 +6,8 @@ void SlotmMchine(int *coins)
 {
 
 
-    char symbols[] = "X7#!?S$&+@=Z";
-    int num_symbols = 12;
+    char symbols[] = "X7#!?S$&+@=Z"; // defines the different symbols used in the slot machine
+    int num_symbols = 12; // Number of different symbols
 
     // Generate one random symbol for each slot
     char slot1 = symbols[rand() % num_symbols];
