@@ -53,13 +53,9 @@ void SlotmMchine(int *coins)
         case 'Z': *coins += 10;  break; // +10
         }
     }
-    else
-    {
-        // No match, no win
-        printf("No win this time!\n");
+    else {printf("No win this time!\n"); } // No match, no win
 
-    }
-
+    
     // Print the slot values
     printf("*_*_*_*_*_ENARMADE BANDITEN*_*_*_*_\n");
     printf("|_|_|_|_|_| [%c] [%c] [%c] |_|_|_|_|_|\n", slot1, slot2, slot3);
