@@ -42,10 +42,10 @@ void SlotmMchine(int *coins)
         case 'X': *coins += 1; break;// +1
         case '#': *coins += 1; break;// +1
         case '$': *coins += 1; break;// +1
-        case '&': *coins += 1; break;// +1
-        case '+': *coins += 1; break;// +1
-        case '@': *coins += 2; break;// +2
-        case '=': *coins += 2; break;// +2
+        case '&': *coins += 5; break;// +5
+        case '+': *coins += 5; break;// +5
+        case '@': *coins += 5; break;// +5
+        case '=': *coins += 5; break;// +5
         case '7': *coins += 3; break;// +6
         case '!': *coins += 6; break;// +6
         case '?': *coins += 6; break;// +6
@@ -91,11 +91,11 @@ int main()
 XX = +1        XXX = +5
 ## = +1        ### = +5
 $$ = +1        $$$ = +5
-&& = +1        &&& = +10
-++ = +1        +++ = +10
-@@ = +2        @@@ = +10
-== = +2        === = +15
-77 = +3        777 = +15
+&& = +5        &&& = +10
+++ = +5        +++ = +10
+@@ = +5        @@@ = +10
+== = +5        === = +15
+77 = +5        777 = +15
 !! = +6        !!! = +20
 ?? = +6        ??? = +25
 SS = +6        SSS = +50
