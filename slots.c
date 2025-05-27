@@ -34,7 +34,7 @@ void SlotmMchine(int *coins)
         case 'Z': *coins += 100;  break; // +100
         }
     }
-    else if (slot1 == slot2 || slot1 == slot3 || slot2 == slot3)
+    else if (slot1 == slot2 || slot2 == slot3)
     {
         // Two slots match
         switch (slot1)
